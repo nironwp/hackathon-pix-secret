@@ -60,6 +60,9 @@ Public blockchains, by default, lack transactional privacy and face challenges i
 ## 🔖&nbsp; Solution Details
 </div>
 
+Private payment requests. Easy, fast and encrypted. 
+With cross-chain smart contract calls, our solution could go Interchain - empowering business and users on public chains to trigger private invoice settlement transactions on Secret Network.
+
 PixSecret introduces $BRS, a fully-backed stablecoin and digital token tied to the Brazilian Real (BRL). This stablecoin will be available 24/7 and can be quickly and securely used in transactions. $BRS will be connected to various blockchains such as Ethereum and Polygon, always benefiting from the privacy layer provided by Secret Network. Users will be able to trade $BRS for Brazilian Reais on a 1:1 basis.
 
 $SILK will be one of the biggest assets and store of value in our platform. All users and companies would be onboarded, making Crypto as a protection against inflation, as Latin American countries have some of the highest inflation rates worldwide.

@@ -364,8 +364,8 @@ export default function App() {
       sender: walletAddress,
       sent_funds: [{ amount: "5000000", denom: "uscrt" }],
     }, 'create_code')
-    if (typeof response === 'string') { showToast(response, 'error') }
 
+    if (typeof response === 'string') { showToast(response, 'error') }
     return response
   }
 
