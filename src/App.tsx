@@ -61,7 +61,10 @@ export default function App() {
   const [code_mak, setCodeMak] = useState<{
     code: string,
     market_value: number
-  }>();
+  }>({
+    code: "",
+    market_value: 0
+  });
   const [pageIndex, setPageIndex] = useState<number>(0);
   const [code, setCode] = useState<undefined | Code>()
   const [value, setValue] = useState(0)
@@ -220,7 +223,7 @@ export default function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setApiUrl((apiUrl) => {
+      setApiUrl((apiUrl: any) => {
         const secretjs = new SecretNetworkClient({
           url: apiUrl,
           chainId: "",
@@ -690,7 +693,7 @@ export default function App() {
                             <label htmlFor="key">Enter your new secretpix key</label>
                             <input onChange={async (e) => {
                               const response = await handleQueryCodeExistence(e.target.value) as any
-                              setCodeMak(prev => {
+                              setCodeMak(() => {
                                 return {
                                   market_value: response.market_value,
                                   code: e.target.value
@@ -766,7 +769,7 @@ export default function App() {
 
                                 <p id="code-data">
                                   Amount earned: {
-                                    code.transactions.reduce((acc, curr) => {
+                                    code.transactions.reduce((acc: number, curr: { amount: number; }) => {
                                       return acc + (curr.amount / 1_000_000)
                                     }, 0)
                                   } SCRT
