@@ -55,18 +55,41 @@ The Front-End was developed using several methodologies such as a well defined a
 
 Public blockchains, by default, lack transactional privacy and face challenges in terms of usability for requesting and receiving cryptocurrency. To achieve mass adoption, there is a need for private payments and invoice requests. In Latin America, alternative payment methods (APMs) such as bank transfers and digital wallets are becoming increasingly popular. PixSecret aims to offer an alternative solution by providing private payment requests that are easy, fast, and encrypted. The project utilizes cross-chain smart contract calls to enable interchain functionality, allowing businesses and users on public chains to trigger private invoice settlement transactions on Secret Network.
 
+<div align="center" style="width: 100%; display: block;">
+
+ <img src="./public/road-1.png" width="100%" heigth="300px" />
+</div>
+
+
+
+
+
 <div id="SolutionDetails">
 
 ## 🔖&nbsp; Solution Details
 </div>
 
 Private payment requests. Easy, fast and encrypted. 
-With cross-chain smart contract calls, our solution could go Interchain - empowering business and users on public chains to trigger private invoice settlement transactions on Secret Network.
 
 PixSecret introduces $BRS, a fully-backed stablecoin and digital token tied to the Brazilian Real (BRL). This stablecoin will be available 24/7 and can be quickly and securely used in transactions. $BRS will be connected to various blockchains such as Ethereum and Polygon, always benefiting from the privacy layer provided by Secret Network. Users will be able to trade $BRS for Brazilian Reais on a 1:1 basis.
 
 $SILK will be one of the biggest assets and store of value in our platform. All users and companies would be onboarded, making Crypto as a protection against inflation, as Latin American countries have some of the highest inflation rates worldwide.
 
+<div id="SolutionDetails">
+
+## 🔖&nbsp; Roadmap 
+<div align="center" style="width: 100%; display: block;">
+
+ <img src="./public/road-2.png" width="100%" heigth="300px" />
+</div>
+</div>
+<br/>
+<div id="ValueEcosystem">
+
+## Value capture for Secret Network ecosystem
+
+Transacting crypto assets privately is the key to mass adoption, this has been achieved by Secret Network already. We believe this can drive a lot of users from other chains to Secret Network, and help people and companies in areas they need this solution.
+</div>
 ---
 
 <div id="MethodologiesUsed">
