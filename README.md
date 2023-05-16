@@ -167,5 +167,10 @@ $SILK will be one of the biggest assets and store of value in our platform. All 
     $ node index.mjs
 ```
 
+### Team Members
+
+- [Pedro Mendes](https://www.linkedin.com/in/gopedro/) - Full Cycle Developer
+- [Luca Fortes](https://www.linkedin.com/in/lucafortes7/) - Community Relations
+- [Pedro Pelicioni](https://www.linkedin.com/in/pedro-pelicioni/) - Frontend Developer
 
 </div>
