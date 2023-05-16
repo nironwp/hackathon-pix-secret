@@ -1,5 +1,4 @@
 <div align="center">
-[![Coverage Status](https://coveralls.io/repos/github/rmanguinho/clean-react/badge.svg?branch=master)](https://coveralls.io/github/rmanguinho/clean-react?branch=master)
 [![Known Vulnerabilities](https://snyk.io/test/github/rmanguinho/clean-react/badge.svg)](https://snyk.io/test/github/rmanguinho/clean-react)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
@@ -26,12 +25,6 @@ The goal is to bring accessibility, ease and security to everyday transactions u
 
 The Front-End was developed using several methodologies such as a well defined and decoupled architecture, using TDD (test-driven programming) as work methodology, Clean Architecture to make the distribution of responsibilities in layers, always following the principles of SOLID, DRY, YAGNI, KISS and applying Design Patterns to solve some common problems.
 <br /><br />
-
-<div align="center" style="width: 100%; display: block;">
-
- <img src="./public/celo.png" width="300px" heigth="300px" />
-</div>
-
 
 
 </div>
