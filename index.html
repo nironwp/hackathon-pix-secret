@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Secret Pix</title>
+
+  <!-- SEO -->
+  <!-- Title -->
+  <meta name="application-name" content="Secret Pix" />
+  <meta name="title" content="Secret Pix" />
+  <meta name="twitter:title" content="Secret Pix" />
+  <meta property="og:title" content="Secret Pix" />
+
+  <!-- Description -->
+  <meta name="description" content="Do stuff like a pro." />
+  <meta name="twitter:description" content="Do stuff like a pro." />
+  <meta property="og:description" content="Do stuff like a pro." />
+
+  <!-- Image -->
+  <!-- <meta
+      name="twitter:image"
+      content="https://secret-metamask-demo.pages.dev/socials-preview.png"
+    />
+    <meta
+      property="og:image"
+      content="https://secret-metamask-demo.pages.dev/socials-preview.png"
+    /> -->
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@SecretNetwork" />
+  <meta name="twitter:creator" content="@SecretNetwork" />
+
+  <!-- Facebook/Telegram -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Secret Pix" />
+  <!-- <meta property="og:url" content="https://superuser.scrtlabs.com" /> -->
+  <meta property="og:locale" content="en_US" />
+
+  <link rel="icon" type="image/png" href="/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    // fix the keplr window type error when there are no node polyfills
+    var global = global || window;
+  </script>
+  <script type="module">
+    import { Buffer } from "buffer";
+    window.Buffer = Buffer;
+  </script>
+  <script type="module" src="/src/App.tsx"></script>
+</body>
+
+</html>

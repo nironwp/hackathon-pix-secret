@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Hind";
+  overflow-y: scroll;
+  background-image: url("/bg.svg");
+}
+
+/* 
+* {
+} */
+
+/* for debugging */
+/* * {
+  border-style: solid;
+  border-width: 0.1mm;
+  border-color: red;
+} */
+
+a {
+  color: #1a0dab;
+}
+
+
+#box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #000000;
+  backdrop-filter: blur(97.5px);
+  border-radius: 16px;
+}
+
+#title {
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 40px;
+  letter-spacing: 1px;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+#paragrapg-welcome {
+  color: rgba(255, 255, 255, 0.881);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.01em;
+  font-weight: 100;
+}
+
+#code-data {
+  color: rgba(255, 255, 255, 0.881);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.01em;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+#code-data-title {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  margin-bottom: 0;
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+
+#dataContainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+#view_our_key_account {
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(91.29deg, #FF5924 0%, #FB03FF 100%);
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 5rem;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem 2rem;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+
+#create_key {
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(91.29deg, #FF5924 0%, #FB03FF 100%);
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 13rem;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem 2rem;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+
+#search_key {
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(91.29deg, #24baff 0%, #FB03FF 100%);
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 13rem;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem 2rem;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+#send_pix {
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(91.29deg, #24baff 0%, #FB03FF 100%);
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 11.6rem;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem 2rem;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+#buy_a_key {
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(91.29deg, #24ff91 0%, #FB03FF 100%);
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 11.6rem;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem 2rem;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+
+#sell_button {
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(91.29deg, #00ffa6 0%, #03c8ff 100%);
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 10.7rem;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem 2rem;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+#create_an_key_account {
+  font-style: normal;
+  font-weight: 400;
+  background: transparent;
+  padding: 1rem 5rem;
+  margin: 0 2rem;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  border: 1px solid #FF5924;
+  margin-top: 1rem;
+}
+
+
+
+#text-annun-wel {
+  color: white;
+  width: 80%;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+
+#form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form-group {
+  display: flex;
+  width: 80%;
+  margin-bottom: 1.5rem;
+  flex-direction: column;
+}
+
+#form-group label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+  margin-bottom: 0.6rem;
+  color: #FFFFFF;
+}
+
+#form-group input {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-size: 1rem;
+}
+
+#form-group input::placeholder {
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+#keysts {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+  letter-spacing: 0.01em;
+}
+
+#keysts span {
+  font-weight: bold;
+}
