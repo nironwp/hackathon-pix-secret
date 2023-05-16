@@ -16,7 +16,11 @@
 
 
 
-[![alt text](./public/logo.png "logo")](./public/logo.png)
+<div align="center" style="width: 100%; display: block;">
+
+ <img src="./public/scrt.png" width="100%" heigth="300px" />
+ 
+</div>
 
 PixSecret is a DeFi Platform and a payment system built on Secret Network, specifically for the LATAM (Latin America) industry. The goal of the project is to address the usability and privacy issues faced by public blockchains when it comes to requesting and receiving cryptocurrency. PixSecret leverages the capabilities of Secret Network to provide private payments and invoice requests, ensuring transactional privacy for day-to-day use.
 
