@@ -58,6 +58,11 @@ Public blockchains, by default, lack transactional privacy and face challenges i
  <img src="./public/road-1.png" width="100%" heigth="300px" />
 </div>
 
+<div align="center" style="width: 100%; display: block;">
+
+ <img src="./public/other-1.png" width="100%" heigth="300px" />
+</div>
+
 
 
 
