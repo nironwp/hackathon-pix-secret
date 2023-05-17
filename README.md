@@ -1,10 +1,10 @@
 <div align="center">
 
-[![Build Status](https://travis-ci.org/rmanguinho/clean-react.svg?branch=master)](https://travis-ci.org/rmanguinho/clean-react)
+
 [![Coverage Status](https://coveralls.io/repos/github/rmanguinho/clean-react/badge.svg?branch=master)](https://coveralls.io/github/rmanguinho/clean-react?branch=master)
 [![Known Vulnerabilities](https://snyk.io/test/github/rmanguinho/clean-react/badge.svg)](https://snyk.io/test/github/rmanguinho/clean-react)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 </div>
 
@@ -16,7 +16,11 @@
 
 
 
-[![alt text](./public/logo.png "logo")](./public/logo.png)
+<div align="center" style="width: 100%; display: block;">
+
+ <img src="./public/scrt.png" width="100%" heigth="300px" />
+ 
+</div>
 
 PixSecret is a DeFi Platform and a payment system built on Secret Network, specifically for the LATAM (Latin America) industry. The goal of the project is to address the usability and privacy issues faced by public blockchains when it comes to requesting and receiving cryptocurrency. PixSecret leverages the capabilities of Secret Network to provide private payments and invoice requests, ensuring transactional privacy for day-to-day use.
 
@@ -24,12 +28,6 @@ The goal is to bring accessibility, ease and security to everyday transactions u
 
 The Front-End was developed using several methodologies such as a well defined and decoupled architecture, using TDD (test-driven programming) as work methodology, Clean Architecture to make the distribution of responsibilities in layers, always following the principles of SOLID, DRY, YAGNI, KISS and applying Design Patterns to solve some common problems.
 <br /><br />
-
-<div align="center" style="width: 100%; display: block;">
-
- <img src="./public/celo.png" width="300px" heigth="300px" />
-</div>
-
 
 
 </div>
