@@ -75,6 +75,17 @@ PixSecret introduces $BRS, a fully-backed stablecoin and digital token tied to t
 
 $SILK will be one of the biggest assets and store of value in our platform. All users and companies would be onboarded, making Crypto as a protection against inflation, as Latin American countries have some of the highest inflation rates worldwide.
 
+<div align="center" style="width: 100%; display: block;">
+
+ <img src="./public/details.png" width="100%" heigth="300px" />
+</div>
+</div>
+<div align="center" style="width: 100%; display: block;">
+
+ <img src="./public/details2.png" width="100%" heigth="300px" />
+</div>
+</div>
+
 <div id="SolutionDetails">
 
 ## 🔖&nbsp; Roadmap 
